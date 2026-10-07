@@ -1,0 +1,19 @@
+# ===== 数据集（体积大，且可从官网重新下载，不入库）=====
+data/
+
+# ===== Jupyter 运行检查点（自动生成，无意义）=====
+.ipynb_checkpoints/
+
+# ===== Python 缓存 =====
+__pycache__/
+*.pyc
+
+# ===== 操作系统 / 编辑器垃圾 =====
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# ===== 本地环境（几百 MB，绝不入库）=====
+venv/
+.venv/
+pytorch-env/
